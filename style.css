@@ -1,0 +1,28 @@
+:root {
+    --text: #0a0d0f;
+    --background: #f8fbfc;
+    --primary: #4eacc6;
+    --secondary: #92d7e8;
+    --accent: #4bc9ec;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #f0f3f5;
+        --background: #161616;
+        --primary: #3997b1;
+        --secondary: #175c6d;
+        --accent: #1391b4;
+    }
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf) format('ttf');
+}
+
+html {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Poppins', sans-serif;
+}
